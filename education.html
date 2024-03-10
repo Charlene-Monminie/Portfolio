@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Charlene Monminie - Portfolio Website</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+
+  <!-- Table styling -->
+  <style>
+    table {
+      font-family: arial, sans-serif;
+      border-collapse: collapse;
+      width: 100%;
+      max-width: 800px; /* Adjust the max-width as needed */
+      margin: auto; /* Center the table */
+    }
+
+    td,
+    th {
+      border: 1px solid #dddddd;
+      text-align: left;
+      padding: 8px;
+    }
+
+    tr:nth-child(even) {
+      background-color: #dddddd;
+    }
+
+    /* Style for the container to hold the objects */
+    .certificate-container {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 20px; /* Optional: Add some space between the containers */
+    }
+
+    /* Style for each object */
+    .certificate-object {
+      width: 48%; /* Adjust as needed, leaving some space for margins */
+      height: 245px;
+      margin: auto; /* Center the object */
+    }
+  </style>
+
+</head>
+
+<body>
+  <br>
+  <a href="index.html"><button>Home</button></a>
+  <a href="projects.html"><button>Projects</button></a>
+  <a href="aboutme.html"><button>About Me</button></a>
+  <a href="collaborations.html"><button>Collaborations</button></a>
+  <a href="education.html"><button>Education</button></a>
+  <a href="experience.html"><button>Experience</button></a>
+  <a href="skills.html"><button>Skills</button></a>
+  <a href="contact.html"><button>Contact</button></a>
+
+  <center>
+    <h2>Education</h2>
+    <img src="images/education.png" width="100">
+
+    <!-- Table -->
+    <table>
+      <tr>
+        <th></th>
+        <th>Institution</th>
+        <th>Program</th>
+        <th>Educational Credential</th>
+        <th>Status</th>
+      </tr>
+      <tr>
+        <td><center> <img src="https://firebasestorage.googleapis.com/v0/b/standards-site-beta.appspot.com/o/documents%2Fz7zu9rv4nfa%2Fxod4h0bxvom%2FMinSize_Screen_Horizontal.svg?alt=media&token=b5d72a19-daac-41da-9863-dc5d5098fc19"></center></td>
+        <td>Cambrian College</td>
+        <td>Business Analytics (BAPG)</td>
+        <td>Graduate Certificate</td>
+        <td>Completed (2024)</td>
+      </tr>
+      <tr>
+        <td><center> <img src="https://firebasestorage.googleapis.com/v0/b/standards-site-beta.appspot.com/o/documents%2Fz7zu9rv4nfa%2Fxod4h0bxvom%2FMinSize_Screen_Horizontal.svg?alt=media&token=b5d72a19-daac-41da-9863-dc5d5098fc19"></center></td>
+        <td>Cambrian College</td>
+        <td>Business (GEBU)</td>
+        <td>Ontario College Diploma (OCD)</td>
+        <td>Completed (2022)</td>
+      </tr>
+      <tr>
+        <td><center> <img src="images/KCI.png" width="75">
+          </center></td>
+        <td>Honourable W.C. Kennedy Collegiate Institute</td>
+        <td>Secondary Education</td>
+        <td>Ontario Secondary School Diploma (OSSD)</td>
+        <td>Completed (2009)</td>
+      </tr>
+    </table>
+    <br><br>
+    <h3>DataCamp Courses</h3>
+
+    <div class="certificate-container">
+      <!-- R -->
+      <div class="certificate-object">
+        <p>Introduction to R certificate</p>
+        <object data="images/Introduction to R.pdf" type="application/pdf" width="73%" height="99%"></object>
+      </div>
+
+      <!-- SQL -->
+      <div class="certificate-object">
+        <p>Introduction to SQL certificate</p>
+        <object data="images/Introduction to SQL.pdf" type="application/pdf" width="73%" height="99%"></object>
+      </div>
+    </div>
+  </center>
+</body>
+
+</html>
